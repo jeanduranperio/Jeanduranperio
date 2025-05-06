@@ -47,10 +47,29 @@
     .images img {
       width: 100%;
       border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .video {
       text-align: center;
       margin-top: 2rem;
+    }
+    iframe {
+      max-width: 100%;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #999;
+      border-radius: 4px;
+    }
+    button {
+      padding: 0.7rem 1.5rem;
+      background-color: #00bcd4;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
     }
     footer {
       background-color: #ccc;
@@ -101,9 +120,9 @@
     <h2>Contacto</h2>
     <p>¿Quieres saber más? Escríbenos:</p>
     <form>
-      <input type="text" placeholder="Tu nombre" required /><br /><br />
-      <input type="email" placeholder="Tu correo" required /><br /><br />
-      <textarea placeholder="Mensaje" required></textarea><br /><br />
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Mensaje" required></textarea>
       <button type="submit">Enviar</button>
     </form>
   </section>
@@ -113,6 +132,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
